@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Search Box with button -->
+    <section>
+        <input class="input" id="input" type="text" placeholder="Enter Item Name...">
+        <button class="button" id="search-button"> Search </button> <br> <br>
+    </section>
+
+    <!-- Default Product List -->
+    <section class="default-section"> 
+        <div class="d-div1" id="d-div1"></div>
+
+        <div class="addCart">
+            <h1 >Total Cart  <span id="inner"> </span> </h1>
+            <div style="display: flex; justify-content: space-around;">
+                <p>SN</p>
+                <p>Image</p>
+                <p>Name</p>
+            </div>
+            <hr>
+
+            <section id="ClassSection">
+                
+            </section>
+            
+        </div>
+    </section>
+
+    <!-- Details Modal -->
+     <div id="DetailsModal"
+        style=" text-align: center; display: none; position: fixed   ; top: 5%; left: 20%; right: 20%; background: white; padding: 20px; border-radius: 10px;">
+        <button style="margin-left: 700px;" onclick="document.getElementById('DetailsModal').style.display='none'">Close</button>
+        <br><img id="modalImg" src="" style="align-items: center; width: 300px; height: 300px;">
+        <h2 id="modalTitle"> </h2>
+        <hr>
+        <h4 id="modalInstructions"></h4>
+        <h4 id="modalInstructions1"></h4>
+        <h4 id="modalInstructions2"></h4>
+        <p style="text-align: left;" id="modalInstructions3"></p>
+    </div>
+
+    <script src="BackEnd.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+.input
+{
+    width: 300px;
+    height: 40px;
+    margin-top: 90px;
+    margin-left: 400px;
+}
+
+.button
+{
+    width: 80px;
+    height: 40px;
+}
+
+.image 
+{
+    width: 250px;
+    height: 200px;
+}
+
+.d-div1
+{
+    display: flex;
+    flex-wrap: wrap;    
+    gap: 20px;
+}
+
+.inside-div
+{
+    width: 250px;
+    height: 410px;
+    border: 2px solid goldenrod;
+    text-align: center;
+}
+
+.default-section
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.d-div1 {
+    min-height: 500px; /* Adjust as needed */
+}
+
+.default-section {
+    display: flex;
+    justify-content: space-between; /* Left & Right positioning */
+    align-items: flex-start; /* Ensures items stay aligned properly */
+}
+
+.d-div1 {
+    width: 65%; /* Make product section larger */
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.addCart {
+    width: 25%; /* Set a fixed width */
+    text-align: center; 
+    padding: 10px;
+    
+}
+
+.addtocartDiv
+{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.image1
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.details-btn
+{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(241, 233, 224);
+    border-radius: 20px;
+}
+
+.addtocart
+{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(241, 233, 224);
+    border-radius: 20px;
+}
+
