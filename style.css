@@ -1,6 +1,6 @@
 .input
 {
-    width: 300px;
+    width: 300px; /* Input Box size*/
     height: 40px;
     margin-top: 90px;
     margin-left: 400px;
@@ -8,20 +8,20 @@
 
 .button
 {
-    width: 80px;
+    width: 80px; /* This Search Button */
     height: 40px;
 }
 
 .image 
 {
-    width: 250px;
+    width: 250px; /* Product Image size define */
     height: 200px;
 }
 
 .d-div1
 {
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;  /* warp is defalt sizeing in the web page */
     gap: 20px;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .d-div1 {
-    width: 65%; /* Make product section larger */
+    width: 65%; /* Make product section with pertige size */
     margin-left: 5%;
     display: flex;
     flex-wrap: wrap;
@@ -74,14 +74,14 @@
 
 .image1
 {
-    width: 60px;
+    width: 60px; /* Image for card */
     height: 60px;
     border-radius: 30px;
 }
 
 .details-btn
 {
-    width: 100px;
+    width: 100px; /* Details button inside product card*/
     height: 30px;
     background-color: rgb(241, 233, 224);
     border-radius: 20px;
